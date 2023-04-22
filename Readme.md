@@ -7,7 +7,7 @@ Objetivo: crear una aplicación backend con una interface WebApiRest,  programad
 
 ## Etapa1 
 ## Crear proyecto basico
-* creamos la carpeta del proyecto: dds-backend
+* creamos la carpeta del proyecto: dds-backend.
 * Ubicado en la carpeta, inicializamos el proyecto node, con el comando:
   ````
   npm init
@@ -255,7 +255,7 @@ router.delete('/api/articulosfamiliasmock/:id', (req, res) => {
 ## webapi ArticulosFamilias
 Esta api accedera a la base de datos sqlite: Pymes.db, mediante el orm Sequelize.
 * Agregamos al proyecto la carpeta ".data" en donde se alojara el archivo de base de datos de sqlite: "pymes.db", el mismo sera creado mediante codigo.
-* Agregamos al proyecto la carpeta "base-orm" en donde pondremos el codigo relacionado a la base de datos
+* Agregamos al proyecto la carpeta "base-orm" en donde pondremos el codigo relacionado a la base de datos.
   * Inicialmente instalaremos los paquetes necesarios para acceder a la base de datos "sqlite3", una libreria para simplificar el acceso asicrono "aa-sqlite" y el ORM elegido "sequelize".
     ````
     npm i sqlite3 aa-sqlite sequelize
